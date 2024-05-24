@@ -1,0 +1,23 @@
+
+
+.banner{
+    display:flex;
+    border-radius: 6px;
+    padding: 1rem;
+    align-items: bottom;
+    line-height: 1.4;
+    max-width: 800px;
+}
+
+.banner>svg{
+    margin-right: 1rem;
+    height: 1.25rem;
+    width: 1.25rem;
+    flex-shrink: 0;
+    transform: translateY(0.125rem);
+}
+
+.banner-content>h2{
+    font-size: 1rem;
+    padding-bottom: .25rem;
+}
