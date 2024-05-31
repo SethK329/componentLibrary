@@ -7,6 +7,7 @@
     align-items: bottom;
     line-height: 1.4;
     max-width: 800px;
+    min-width: 600px;
 }
 
 .banner>svg{

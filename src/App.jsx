@@ -30,6 +30,12 @@ function App() {
         </div>
 
         <div className="banner-container">
+        <Banner title="Attention" status="warning"/>
+        <Banner title="You donked up" status="error"/>
+        <Banner title="Hello There" status="success"/>
+        <Banner title="Um Hi" status="neutral"/>
+        </div>
+        <div className="banner-container">
         <Banner title="Attention" status="warning">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam quo totam eius aperiam dolorum.</p>
         </Banner>
