@@ -2,6 +2,7 @@ import React from 'react'
 import Badge  from './components/Badge/Badge'
 import Banner from './components/Banners/Banner'
 import Card from './components/Card/Card'
+import Testimonial from './components/Testimonial/Testimonial'
 function App() {
 
   return (
@@ -53,6 +54,15 @@ function App() {
             <Card title="Easy Deployment">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam quo totam eius aperiam dolorum.</p>
             </Card>
+        </div>
+        <div className='testimonial-container'>
+            <Testimonial 
+                source="/Image.png" 
+                alt="Testimonial author" 
+                quote="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna nulla vitae laoreet augue. Amet feugiat est integer dolor auctor adipiscing nunc urna, sit. " 
+                author="May Anderson" 
+                title="Workation, CTO"
+            />
         </div>
       </>
   )
