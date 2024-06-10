@@ -36,3 +36,19 @@ body{
   margin-bottom: 1rem;
 }
 
+.testimonial-container{
+  margin-top: 5rem;
+  display: flex;
+  gap: 200px;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.desktop-testimonial-container{
+  width: 100%;
+}
+
+.mobile-testimonial-container{
+  width: 400px;
+}

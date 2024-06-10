@@ -56,13 +56,25 @@ function App() {
             </Card>
         </div>
         <div className='testimonial-container'>
-            <Testimonial 
-                source="/Image.png" 
-                alt="Testimonial author" 
-                quote="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna nulla vitae laoreet augue. Amet feugiat est integer dolor auctor adipiscing nunc urna, sit. " 
-                author="May Anderson" 
-                title="Workation, CTO"
-            />
+          <div className='desktop-testimonial-container'>
+              <Testimonial 
+                  source="/Image.png" 
+                  alt="Testimonial author" 
+                  quote="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna nulla vitae laoreet augue. Amet feugiat est integer dolor auctor adipiscing nunc urna, sit. " 
+                  author="May Anderson Desktop" 
+                  title="Workation, CTO"
+              />
+            </div>
+            <div className='mobile-testimonial-container'>
+              <Testimonial 
+                  source="/Image.png" 
+                  alt="Testimonial author" 
+                  quote="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna nulla vitae laoreet augue. Amet feugiat est integer dolor auctor adipiscing nunc urna, sit. " 
+                  author="May Anderson Mobile" 
+                  title="Workation, CTO"
+              />
+            </div>
+            
         </div>
       </>
   )
