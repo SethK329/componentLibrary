@@ -42,14 +42,8 @@
     overflow: hidden;
 }
 
-@media (max-width: 800px) {
-    .testimonial{
-        width: 380px;
-    }
-    
-}
 
-@container (width < 600px) {
+@container (width < 800px) {
     .inner-wrapper-testimonial{
         flex-direction: column;
         height: unset;
